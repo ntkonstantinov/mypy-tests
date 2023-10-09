@@ -3,7 +3,6 @@
 ### Cases that work:
 
 - ```mypy mypy_working```
-- ```mypy src/inner_folder_in_src_not_working```
 
 ### Cases that do not work:
 - ```mypy src```
