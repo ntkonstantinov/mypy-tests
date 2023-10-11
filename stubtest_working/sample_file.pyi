@@ -1,3 +1,0 @@
-x: int
-
-def foo(x: int) -> None: ...

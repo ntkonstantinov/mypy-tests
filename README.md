@@ -7,18 +7,5 @@
 ### Cases that do not work:
 - ```mypy src```
 
-
-# Stubtest
-
-### Cases that work:
-
-- ```python3 -m mypy.stubtest stubtest_working```
-
-
-
-### Cases that do not work:
-- ```python3 -m mypy.stubtest stubtest_not_working```
-
-
-
-## Essentially, we'd like the cases that don't work to be working, in order to have a general solution.
+This issue should be connected to the way package are used in mypy because
+if you make the `src` package a folder (by removing the __init__.py) then the not working case starts to work.

@@ -1,4 +1,4 @@
-x = "hello, stubtest"
+x = "hello, mypy"
 
 
 def foo(x=None):
